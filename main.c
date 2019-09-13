@@ -64,6 +64,34 @@ int main(int argc, char *argv[]) {
 			break;
 		}
 			}
+			
+					//**************ACTIVIDADEXTRA*****************
+			
+	//en esta actividad extra realizaremos todo lo anterior pero con un cambio de cantidad de "case" 
+	// pues aqui son solo 3 pero primero debemos introducir nuestra variable usando int
+	// y para el uso de esta misma usar un scanf y definir su valor con un %d
+     int opcion;
+     printf("selecciona una opcion (1-3): ");
+     scanf("%d", &opcion);
+     //procederemos a usar el switch para la variable sem
+	// e ingresamos todos los case (del 1 al 7 para esa actividad) y al final un 
+	// un default para terminar el proceso de estos ultimos
+     switch(opcion){
+     	case 1:{ printf("Escogiste la opcion 1");
+			break;
+		 }
+		 case 2:{printf("Escogiste la opcion 2");
+			break;
+		 }
+     	case 3:{ printf("Escogiste la opcion 3");
+			break;
+		 }
+		 default:{ printf("Error ");
+			break;
+		 }
+     	
+	 }
+     
 	
 	return 0;
 }
