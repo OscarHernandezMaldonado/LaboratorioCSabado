@@ -24,6 +24,46 @@ int main(int argc, char *argv[]) {
 	
 	else printf("\n\n\n\t\t\tError\n\n\n");
 
+	//**************ACTIVIDAD2*****************
+	
+	// para la actividad 2 lo que realizaremos primero es introducir una variable con un int en este caso nuestra varuiable es "sem"
+	// ingresamos el mensaje de informacion al usuario con printf
+	// y colocamos el valor de la variable para esta actividad sera un numero entero asi que usaremos "%d"
+	
+	int sem;
+	printf("Ingrese el dia de la semana:\n1:Domingo\n2:Lunes\n3:Martes\n4:Miercole\n5:Jueves\n6:Viernes\n7:Sabado\n");
+	scanf("%d",&sem);  
+	
+	 
+	//ya realizado todo lo anterior procederemos a usar el switch para la variable sem
+	// e ingresamos todos los case (del 1 al 7 para esa actividad) y al final un 
+	// un default para terminar el proceso de estos ultimos
+	switch(sem){
+		case 1: { printf("\t\t\tEl dia es Domingo\n\n\n");
+				break;
+		}
+		case 2:{ printf("\t\t\tEl dia es Lunes\n\n\n");
+			break;
+		}
+		case 3:{ printf("\t\t\tEl dia es Martes\n\n\n");
+			break;
+		}
+		case 4:{ printf("\t\t\tEl dia es Miercoles\n\n\n");
+			break;
+		}
+		case 5:{ printf("\t\t\tEl dia es Jueves\n\n\n");
+			break;
+		}
+		case 6:{ printf("\t\t\tEl dia es Viernes\n\n\n");
+			break;
+		}
+		case 7:{ printf("\t\t\tEl dia es Sabado\n\n\n");
+			break;
+		}
+		default:{ printf("\t\t\tDia incorrecto\n\n\n");
+			break;
+		}
+			}
 	
 	return 0;
 }
